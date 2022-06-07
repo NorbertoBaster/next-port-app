@@ -9,18 +9,18 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className="py-4">Who I am</h2>
-          <p className="py-2 text-gray-600">Self taught front-end developer</p>
-          <p className="py-2 text-gray-600">
+          <h2 className="py-4 text-gray-300">Who I am</h2>
+          <p className="py-2 text-gray-400">Self taught front-end developer</p>
+          <p className="py-2 text-gray-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
             esse, eum quibusdam vel iste voluptas minima sequi tenetur! Quasi ad
             id adipisci quisquam rerum pariatur repellat itaque excepturi soluta
             deserunt.
           </p>
-          
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-1-5 ease-in duration-300">
-          <Image className="rounded-xl -z-50"
+          <Image
+            className="rounded-xl -z-50"
             src="/assets/IMG_1859Artboard-1-copy.png"
             height="300"
             width="300"
