@@ -71,7 +71,7 @@ window.addEventListener('scroll', handleShadow);
           <div className="flex w-full items-center justify-between">
             
             <Image
-              src="/../public/assets/nb-logo-png-transparent.png"
+              src="/assets/nb-logo-png-transparent.png"
               width="60"
               height="60"
               alt="/"
