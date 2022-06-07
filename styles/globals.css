@@ -6,9 +6,16 @@
 
 body {
   scroll-behavior: smooth;
+ 
   
 }
 
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../public/assets/OpenSans/RobotoMono-Regular.ttf')
+  
+}
 
 @layer base {
   body {
@@ -22,6 +29,8 @@ body {
   h5,
   h6 {
     @apply font-bold;
+    font-family: OpenSans, sans-serif;
+    font-weight: 500;
     
   }
 

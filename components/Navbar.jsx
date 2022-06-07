@@ -6,6 +6,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -32,7 +33,7 @@ window.addEventListener('scroll', handleShadow);
     <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className="flex bg-[#ecf0f3] justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/../public/assets/nb-logo-png-transparent.png"
+          src="/assets/nb-logo-png-transparent.png"
           alt="/"
           width="60"
           height="50"
@@ -68,6 +69,7 @@ window.addEventListener('scroll', handleShadow);
       <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
         <div className={nav ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'fixed left-[-100%] p-10 top-0  ease-in duration-500'}>
           <div className="flex w-full items-center justify-between">
+            
             <Image
               src="/../public/assets/nb-logo-png-transparent.png"
               width="60"
@@ -79,9 +81,7 @@ window.addEventListener('scroll', handleShadow);
             </div>
           </div>
           <div className="border-b border-gray-300 my-4">
-            <p className="w-[85%] md:w-[90%] py-4">
-              P.S Actively looking for a job opportunity. Let&apos;s talk!
-            </p>
+            
           </div>
           <div className="py-4 flex-col">
             <ul className="uppercase">
@@ -101,7 +101,7 @@ window.addEventListener('scroll', handleShadow);
                 <li className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-16">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Lets connect
               </p>
